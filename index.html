@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fishtext</title>
+
+	<link rel="preload" href="/font/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/font/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/font/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/font/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/font/Pacifico-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container ">
+			<nav class="header__navigation">
+				<a class="logo">
+					<img src="img/logo.svg" alt="Логотип компании">
+				</a>
+					
+				<a class="phone" href="tel:+79625561234">
+					<p class="phone__number">+7 (962) 556 - 1234</p>
+					<p class="phone__call">Перезвоните мне</p>
+	
+					<img class="phone__mobile" src="img/mobile.svg" height="68" alt="иконка с телефонной трубкой" >
+				</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="promo">
+			<div class="promo__container container">
+				<h1 class="visually-hidden">Сайт рыбатекст</h1>
+
+				<h2 class="promo__title">Заголовок c уникальным торговым предложение по системе 4U</h2>
+
+				<p class="promo__subtitle">Описания предлжения компании. 
+					Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать 
+					несколько абзацев более<span class="promo__text-hidden"> менее 
+						осмысленного текста рыбы на русском языке, а начинающему</span>.
+				</p>
+
+				<a href="#" class="promo__detail-link button-main">Подробнее</a>
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="container about__container">
+				<h2 class="about__title">Уникальный заголовок для преимущества компании</h2>
+
+				<p class="about__subtitle">О нас</p>
+
+				<p class="about__description">
+					Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее 
+					осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+				</p>
+
+				<ol class="about__list">
+					<li class="about__item">
+						<p class="about__target-number">1</p>
+						<p class="about__target-description">Первое целевое преимущество</p>
+					</li>
+
+					<li class="about__item">
+						<p class="about__target-number">2</p>
+						<p class="about__target-description">Второе целевое преимущество</p>
+					</li>
+
+					<li class="about__item">
+						<p class="about__target-number">3</p>
+						<p class="about__target-description">Третье целевое преимущество</p>
+					</li>
+
+					<li class="about__item">
+						<p class="about__target-number">4</p>
+						<p class="about__target-description">Четвёртое целевое преимущество</p>
+					</li>
+				</ol>
+			</div>
+		</section> 
+
+		<section class="contacts">
+			<div class="contacts__container container">
+				<h2 class="contacts__title">Остались вопросы?</h2>
+
+				<form class="contacts__form form">
+					<fieldset class="form__fieldset">
+						<legend class="form__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
+
+						<label class="visually-hidden" for="first-name"> Ваше имя</label>
+						<input class="form__input" id="first-name" type="text" name="first-name" placeholder="Ваше имя">
+						
+						<label class="visually-hidden" for="phone">Телефон</label>
+						<input class="form__input" id="phone" type="tel" name="phone" placeholder="Телефон">
+
+						<label class="visually-hidden" for="e-mail"> E-mail</label>
+						<input class="form__input" id="e-mail" type="email" name="e-mail" placeholder="E-mail">
+					</fieldset>
+
+					<button class="form__btn button-main" >позвоните мне</button>
+				</form>
+
+				<p class="contacts__personal-data">Я даю своё <a class="contacts__consent" href="#"> согласие </a> на обработку моих персональных данных.</p>
+			</div>
+		</section> 
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__navigation">
+				<div class="footer__wrapper">
+					<img class="logo" src="img/logo.svg" alt="Логотип компании">
+
+					<div class="footer__copyright">
+						<p>© 2022 XXXcompany.</p>
+						<p>Все права защищены</p>
+					</div>
+				</div>
+				
+				<p class="footer__author">Сделано Денисом Николаевым</p>
+
+				<a class="phone" href="tel:+79625561234">
+					<p class="phone__number">+7 (962) 556 - 1234</p>
+					<p class="phone__call">Перезвоните мне</p>
+
+					<img class="phone__mobile" src="img/mobile.svg" height="68" alt="иконка с телефонной трубкой" >
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

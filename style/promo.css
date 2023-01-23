@@ -1,0 +1,140 @@
+.promo {
+  padding-top: 228px;
+  padding-bottom: 120px;
+  background: linear-gradient(
+      var(--background-translucent-color, rgba(47, 50, 75, 0.85)),
+      rgba(47, 50, 75, 0.85)
+    ),
+    url(../img/office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__container {
+  max-width: 1050px;
+}
+
+.promo__title {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 61px;
+  text-align: center;
+  color: var(--white-high-color, rgba(255, 255, 255, 0.86));
+}
+
+.promo__subtitle {
+  margin: 0 auto;
+  margin-bottom: 90px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  color: var(--white-low-color, rgba(255, 255, 255, 0.75));
+}
+
+.promo__detail-link {
+  width: 200px;
+  padding: 12px 48px;
+}
+
+@media (max-width: 1024px) {
+  .promo {
+    padding-top: 156px;
+    padding-bottom: 70px;
+    background: linear-gradient(
+        var(--background-translucent-color, rgba(47, 50, 75, 0.85)),
+        rgba(47, 50, 75, 0.85)
+      ),
+      url(../img/office-medium.jpg);
+  }
+
+  .promo__title {
+    max-width: 800px;
+    margin-bottom: 28px;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .promo__subtitle {
+    max-width: 754px;
+    margin-bottom: 61px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .promo__detail-link {
+    width: 202px;
+    padding: 11px 49px;
+  }
+}
+
+@media (max-width: 730px) {
+  .promo__title {
+    margin-bottom: 25px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .promo__subtitle {
+    margin-bottom: 56px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 580px) {
+  .promo__title {
+    margin-bottom: 23px;
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .promo__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo__text-hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .promo {
+    padding-top: 110px;
+    padding-bottom: 65px;
+  }
+
+  .promo__title {
+    margin-bottom: 23px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .promo__subtitle {
+    overflow: hidden;
+    max-height: 77px;
+    margin-bottom: 54px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .promo__detail-link {
+    width: 160px;
+    padding: 9px 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo {
+    background: linear-gradient(
+        var(--background-translucent-color, rgba(47, 50, 75, 0.85)),
+        rgba(47, 50, 75, 0.85)
+      ),
+      url(../img/office-small.jpg);
+  }
+}
