@@ -9,11 +9,12 @@
 }
 
 .contacts__title {
-  margin-bottom: 17px;
+  margin-bottom: 18px;
+  padding-top: 3px;
+  padding-left: 423px;
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
-  text-align: center;
   color: var(--white-color, rgba(255, 255, 255));
 }
 

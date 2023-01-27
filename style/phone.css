@@ -5,9 +5,11 @@
 }
 
 .phone__number {
-  margin-bottom: 3px;
+  margin-top: -1px;
+  margin-bottom: 4px;
+  
   font-weight: 400;
-  font-size: 24px;
+  font-size: 23.85px;
   line-height: 28px;
   text-align: center;
   color: var(--white-color, rgba(255, 255, 255));

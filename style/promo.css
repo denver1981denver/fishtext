@@ -16,7 +16,7 @@
 
 .promo__title {
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   font-weight: 900;
   font-size: 52px;
   line-height: 61px;
@@ -26,7 +26,7 @@
 
 .promo__subtitle {
   margin: 0 auto;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
   font-weight: 400;
   font-size: 22px;
   line-height: 31px;
@@ -37,6 +37,9 @@
 .promo__detail-link {
   width: 200px;
   padding: 12px 48px;
+  padding-left: 47px;
+  
+  padding-top: 13px;
 }
 
 @media (max-width: 1024px) {

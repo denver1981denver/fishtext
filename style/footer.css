@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  padding-top: 45px;
+  padding-top: 44px;
   padding-bottom: 45px;
   background-color: var(--background-color, rgba(47, 50, 75));
 }
@@ -14,6 +14,7 @@
 .footer__wrapper {
   display: flex;
   align-items: center;
+  margin-right: -4px;
   gap: 19px;
 }
 
@@ -33,6 +34,9 @@
   color: var(--white-color, rgba(255, 255, 255));
 }
 
+.phone__number--padding--right {
+  padding-right: 1.5px;
+}
 @media (max-width: 1024px) {
   .footer {
     padding-top: 37px;
